@@ -1,1 +1,5 @@
 # monorepo
+
+- pnpm
+- lerna
+- turbo
