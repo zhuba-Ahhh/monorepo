@@ -1,0 +1,30 @@
+{
+  "name": "@monorepo/core",
+  "version": "0.0.0",
+  "description": "core",
+  "author": "zhuba-Ahhh <3477826311@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "build/index.js",
+  "types": "./build/index.d.ts",
+  "type": "commonjs",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "bin": {
+    "cli": "build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc --watch"
+  },
+  "dependencies": {
+    
+  }
+}
